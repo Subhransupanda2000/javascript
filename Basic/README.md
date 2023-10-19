@@ -16,3 +16,22 @@
 * Displaying date and time,
 * Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box and prompt dialog box),
 * Displaying clocks etc.
+# Places to put JavaScript code
+* Between the body tag of html
+* Between the head tag of html
+* In .js file (external javaScript)
+# Advantages of External JavaScript
+  There will be following benefits if a user creates an external javascript:
+* It helps in the reusability of code in more than one HTML file.
+* It allows easy code readability.
+* It is time-efficient as web browsers cache the external js files, which further reduces the page loading time.
+* It enables both web designers and coders to work with html and js files parallelly and separately, i.e., without facing any code conflictions.
+* The length of the code reduces as only we need to specify the location of the js file.
+# Disadvantages of External JavaScript
+  There are the following disadvantages of external files:
+* The stealer may download the coder's code using the url of the js file.
+* If two js files are dependent on one another, then a failure in one file may affect the execution of the other dependent file.
+* The web browser needs to make an additional http request to get the js code.
+* A tiny to a large change in the js code may cause unexpected results in all its dependent files.
+* We need to check each file that depends on the commonly created external javascript file.
+* If it is a few lines of code, then better to implement the internal javascript code.
