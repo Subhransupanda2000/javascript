@@ -1,4 +1,4 @@
-![image](https://github.com/Subhransupanda2000/javascript/assets/123824203/d6964ebf-99b7-4ae0-9507-0e37b12d8b26)![Screenshot (652)](https://github.com/Subhransupanda2000/javascript/assets/123824203/88feea2c-9807-4c16-805e-87846711e2e1)# Function
+# Function
 ```
 function function1()
 {
