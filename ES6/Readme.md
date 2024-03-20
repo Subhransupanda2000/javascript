@@ -1,4 +1,4 @@
-# ES6 feactures:
+# ES6 Features:
 # New Features in ES6
 ```
 The let keyword
