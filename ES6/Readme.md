@@ -22,8 +22,8 @@ Array find()
 Array findIndex()
 New Math Methods
 New Number Properties
-```
 New Number Methods
 New Global Methods
 Object entries
 JavaScript Modules
+```
