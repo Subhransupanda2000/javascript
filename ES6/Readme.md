@@ -1,5 +1,6 @@
 # ES6 feactures:
 # New Features in ES6
+```
 The let keyword
 The const keyword
 Arrow Functions
@@ -21,6 +22,7 @@ Array find()
 Array findIndex()
 New Math Methods
 New Number Properties
+```
 New Number Methods
 New Global Methods
 Object entries
