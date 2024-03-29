@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City List</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Add and Delete Cities</h2>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button onclick="addCity()">Add City</button>
+    <br><br>
+    <table id="cityTable">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- City rows will be added here -->
+        </tbody>
+    </table>
+
+    <script>
+        function addCity() {
+            var input = document.getElementById("cityInput");
+            var cityName = input.value.trim();
+
+            if (cityName !== "") {
+                var table = document.getElementById("cityTable").getElementsByTagName("tbody")[0];
+                var row = table.insertRow();
+
+                var cell1 = row.insertCell(0);
+                cell1.innerHTML = cityName;
+
+                var cell2 = row.insertCell(1);
+                var deleteBtn = document.createElement("button");
+                deleteBtn.innerHTML = "Delete";
+                deleteBtn.onclick = function () {
+                    deleteRow(row);
+                };
+                cell2.appendChild(deleteBtn);
+
+                input.value = ""; // Clear the input field after adding the city
+            }
+        }
+
+        function deleteRow(row) {
+            row.parentNode.removeChild(row);
+        }
+    </script>
+</body>
+
+</html>
