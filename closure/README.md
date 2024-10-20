@@ -1,7 +1,7 @@
 # Closure
 * A closure is the combination of a function bundled together (enclosed) with references to its surrounding state
 # Lexical scoping
-`
+``
 function init() {
   var name = "Mozilla"; // name is a local variable created by init
   function displayName() {
@@ -12,4 +12,5 @@ function init() {
 }
 init();
 
-`
+``
+
