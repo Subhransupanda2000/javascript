@@ -32,6 +32,36 @@ document.getElementById("demo").innerHTML = text;
 # Dom manipulation using css
 * document.getElementById("p2").style.color = "blue";
 # Dom manipulation using inline events:
-* <button type="button"
+```
+<button type="button"
 onclick="document.getElementById('id1').style.color = 'red'">
 Click Me!</button>
+<button onclick="displayDate()">Try it</button>
+document.getElementById("myBtn").onclick = displayDate;
+```
+# events example:
+* onload
+* oninput
+* onunload
+* onchange
+* onmouseover
+* onmouseout
+* onmouseup
+* onmousedown
+* onclick
+* onfocus
+# EventListner
+* element.addEventListener(event, function, useCapture);
+* document.getElementById("myBtn").addEventListener("click", displayDate);
+# When user will try to resize the event
+```
+window.addEventListener("resize", function(){
+  document.getElementById("demo").innerHTML = sometext;
+}); 
+```
+# Getting content through Dom tree
+* document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
+* document.getElementById("id02").innerHTML = document.getElementById("id01").childNodes[0].nodeValue;
+* document.getElementById("demo").innerHTML = document.body.innerHTML;
+* document.getElementById("demo").innerHTML = document.documentElement.innerHTML;
+* document.getElementById("id02").innerHTML = document.getElementById("id01").nodeName;
