@@ -65,3 +65,77 @@ window.addEventListener("resize", function(){
 * document.getElementById("demo").innerHTML = document.body.innerHTML;
 * document.getElementById("demo").innerHTML = document.documentElement.innerHTML;
 * document.getElementById("id02").innerHTML = document.getElementById("id01").nodeName;
+# Nodevalue property
+* document.getElementById("id02").innerHTML = document.getElementById("id01").nodeType;
+# Dom node:
+```
+<h2>JavaScript HTML DOM</h2>
+<p>Add a new HTML Element.</p>
+
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
+const element = document.getElementById("div1");
+element.appendChild(para);
+</script>
+```
+```
+<div id="div1">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+const element = document.getElementById("div1");
+const child = document.getElementById("p1");
+element.insertBefore(para, child);
+</script>
+```
+```
+<div>
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const elmnt = document.getElementById("p1"); elmnt.remove();
+</script>
+```
+```
+<div id="div1">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const parent = document.getElementById("div1");
+const child = document.getElementById("p1");
+parent.removeChild(child);
+</script>
+```
+```
+<div id="div1">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+const parent = document.getElementById("div1");
+const child = document.getElementById("p1");
+parent.replaceChild(para, child);
+</script>
+```
