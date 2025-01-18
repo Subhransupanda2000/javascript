@@ -31,6 +31,12 @@ document.getElementById("demo").innerHTML = text;
 * type 	Specifies the type of an input element
 # Dom manipulation using css
 * document.getElementById("p2").style.color = "blue";
+# Adding and Deleting Elements
+* document.createElement(element)	Create an HTML element
+* document.removeChild(element)	Remove an HTML element
+* document.appendChild(element)	Add an HTML element
+* document.replaceChild(new, old)	Replace an HTML element
+* document.write(text)	Write into the HTML output stream
 # Dom manipulation using inline events:
 ```
 <button type="button"
