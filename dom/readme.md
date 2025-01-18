@@ -1,10 +1,3 @@
-# dom
-* const x = document.querySelectorAll("p.intro");
-document.getElementById("demo").innerHTML =
-* const x = document.forms["frm1"];
-* document.getElementById("myImage").src = "landscape.jpg";
-* document.write(Date());
-//----------------------------------------------------
 # Finding Dom element:
 * const element = document.getElementsByTagName("p");
 * const element = document.getElementById("intro");
