@@ -139,3 +139,10 @@ const child = document.getElementById("p1");
 parent.replaceChild(para, child);
 </script>
 ```
+# Dom collection
+```
+const myCollection = document.getElementsByTagName("p");
+for (let i = 0; i < myCollection.length; i++) {
+  myCollection[i].style.color = "red";
+}
+```
