@@ -21,3 +21,17 @@ document.getElementById("demo").innerHTML = text;
 * document.write()
 # Get the value
 * let x = document.getElementById("numb").value;
+# Constraint Validation HTML Input Attributes
+# Attribute	Description
+* disabled	Specifies that the input element should be disabled
+* max	Specifies the maximum value of an input element
+* min	Specifies the minimum value of an input element
+* pattern	Specifies the value pattern of an input element
+* required	Specifies that the input field requires an element
+* type 	Specifies the type of an input element
+# Dom manipulation using css
+* document.getElementById("p2").style.color = "blue";
+# Dom manipulation using inline events:
+* <button type="button"
+onclick="document.getElementById('id1').style.color = 'red'">
+Click Me!</button>
