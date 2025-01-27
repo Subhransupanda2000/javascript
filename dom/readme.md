@@ -152,3 +152,12 @@ for (let i = 0; i < myCollection.length; i++) {
   myCollection[i].style.color = "red";
 }
 ```
+# 94.What is use of prevent default and stock propogaƟon methods?
+```
+preventDefault() and stopPropagation() in JavaScript
+These two methods are part of the Event Object in JavaScript and are used to control how events behave when triggered.
+
+1. preventDefault()
+Purpose: Prevents the default behavior of an event from occurring.
+Use Case: Use when you want to stop an event's default browser action, like submitting a form, following a link, or right-clicking to show the context menu.
+```
