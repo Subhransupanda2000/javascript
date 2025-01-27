@@ -10,6 +10,7 @@
 * Variable which is acessable throughout the program function and object that is global variable.
 * ex- var we can acess it through window object
 * But in the case of const and let if we will decler globally it will act as global variable but we can not acss through window object
-
+# What is void 0 (Void Zero) in JavaScript?
+* The expression void 0 in JavaScript is used to explicitly produce undefined. It is a shorthand way to guarantee the value of undefined, regardless of whether the global undefined variable has been modified (in * * older JavaScript environments).
 
 
