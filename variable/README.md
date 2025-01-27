@@ -12,5 +12,7 @@
 * But in the case of const and let if we will decler globally it will act as global variable but we can not acss through window object
 # What is void 0 (Void Zero) in JavaScript?
 * The expression void 0 in JavaScript is used to explicitly produce undefined. It is a shorthand way to guarantee the value of undefined, regardless of whether the global undefined variable has been modified (in * * older JavaScript environments).
+# Purpose of JSON.stringify() in JavaScript
+* JSON.stringify() is a method in JavaScript that converts a JavaScript object or value to a JSON string. It is commonly used for serializing data, meaning turning a JavaScript object into a format that can be easily stored, transmitted, or written as a string.
 
 
