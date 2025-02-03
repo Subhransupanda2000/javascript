@@ -161,3 +161,19 @@ These two methods are part of the Event Object in JavaScript and are used to con
 Purpose: Prevents the default behavior of an event from occurring.
 Use Case: Use when you want to stop an event's default browser action, like submitting a form, following a link, or right-clicking to show the context menu.
 ```
+# dom methods ant properties
+```
+getElementById()	Select an element by its ID.
+getElementsByClassName()	Select elements by their class name.
+querySelector()	Select the first element matching a CSS selector.
+createElement()	Create a new HTML element.
+appendChild()	Append a child element to the parent element.
+removeChild()	Remove a child element from the parent element.
+addEventListener()	Attach an event handler to an element.
+style	Get or set inline CSS styles of an element.
+parentNode	Access the parent element of an element.
+classList	Manipulate the classes of an element.
+innerHTML	Get or set the HTML content inside an element.
+value	Get or set the value of input elements.
+src	Get or set the source URL of an image or media.
+```
